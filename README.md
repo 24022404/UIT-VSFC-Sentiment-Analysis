@@ -5,9 +5,9 @@ Vietnamese student feedback sentiment classification.
 ## Team Members
 | Name | Student ID | Approach |
 |------|------------|----------|
-| Lương Minh Trí | 23020440 | Approach 1: SVM + XGBoost Ensemble |
+| Nguyễn Đức Minh | 24022404 | Approach 1: SVM + XGBoost Ensemble |
 | Đỗng Mạnh Hùng | 23020370 | Approach 2 |
-| Nguyễn Đức Minh | 24022404 | Approach 3 |
+| Lương Minh Trí | 23020440 | Approach 3 |
 
 ## Dataset
 UIT-VSFC (Vietnamese Students' Feedback Corpus)
