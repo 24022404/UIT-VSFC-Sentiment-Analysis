@@ -35,7 +35,19 @@ MaxEnt (Nguyen et al., 2018): 87.94% F1-score
 - Soft voting ensemble (SVM=0.7, XGB=0.3)
 
 ### Approach 2
-Coming soon
+| Metric     | Negative | Neutral | Positive | Overall |
+|------------|----------|---------|----------|---------|
+| Precision  | 94.55%   | 59.17%  | 95.20%   | **93.01%** |
+| Recall     | 94.82%   | 59.88%  | 94.84%   | **92.99%** |
+| F1-Score   | 94.68%   | 59.52%  | 95.02%   | **93.00%** |
+
+**Improvement:** +5.06% F1 (weighted) vs baseline (87.94% → 93.00%); Neutral F1 up from 33.99% → 59.52%.
+
+**Method:**
+Model: Fine-tuned vinai/phobert-base with class weights from training distribution (to handle ~4% Neutral).
+Inputs: max_length=128, CLS embedding → dropout → linear classifier.
+Training: AdamW (lr=2e-5), 4 epochs, batch size 32, linear warmup/decay (10% warmup), grad clip=1.0.
+Early selection: best checkpoint by dev macro-F1; report per-class and overall (weighted + macro) on test.
 
 ### Approach 3
 Coming soon
