@@ -6,7 +6,7 @@ Vietnamese student feedback sentiment classification.
 | Name | Student ID | Approach |
 |------|------------|----------|
 | Nguyễn Đức Minh | 24022404 | Approach 1: SVM + XGBoost Ensemble |
-| Đỗng Mạnh Hùng | 23020370 | Approach 2 |
+| Đỗng Mạnh Hùng | 23020370 | Approach 2: phoBERT |
 | Lương Minh Trí | 23020440 | Approach 3 |
 
 ## Dataset
