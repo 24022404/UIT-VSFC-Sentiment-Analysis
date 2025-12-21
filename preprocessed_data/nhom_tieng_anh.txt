@@ -1,0 +1,55 @@
+DANH SÁCH THUẬT NGỮ TIẾNG ANH (CODE-SWITCHING)
+==================================================
+Từ vựng              | Số lần xuất hiện    
+--------------------------------------------------
+theo                 | 241                 
+tham                 | 79                  
+to                   | 15                  
+wifi                 | 12                  
+facebook             | 8                   
+chat                 | 3                   
+framework            | 3                   
+csharp               | 3                   
+topic                | 2                   
+smartphone           | 2                   
+oracle               | 2                   
+router               | 2                   
+crack                | 1                   
+while                | 1                   
+header               | 1                   
+phone                | 1                   
+wireshark            | 1                   
+them                 | 1                   
+microsoft            | 1                   
+search               | 1                   
+turnitindotcom       | 1                   
+feedback             | 1                   
+assembly             | 1                   
+and                  | 1                   
+anh                  | 1                   
+reading              | 1                   
+everything           | 1                   
+input                | 1                   
+the                  | 1                   
+free                 | 1                   
+switch               | 1                   
+youtube              | 1                   
+photo                | 1                   
+writing              | 1                   
+with                 | 1                   
+coursedotuitdotedudotvn | 1                   
+basic                | 1                   
+firmware             | 1                   
+top                  | 1                   
+it002dotf23          | 1                   
+dreamweaver          | 1                   
+famous               | 1                   
+teamwork             | 1                   
+than                 | 1                   
+boss                 | 1                   
+microphone           | 1                   
+it                   | 1                   
+round                | 1                   
+teacher              | 1                   
+assignments          | 1                   
+easy                 | 1                   
