@@ -7,7 +7,7 @@ Vietnamese student feedback sentiment classification.
 |------|------------|----------|
 | Nguyễn Đức Minh | 24022404 | Approach 1: SVM + XGBoost Ensemble |
 | Đỗng Mạnh Hùng | 23020370 | Approach 2: phoBERT |
-| Lương Minh Trí | 23020440 | Approach 3 |
+| Lương Minh Trí | 23020440 | Approach 2: phoBERT |
 
 ## Dataset
 UIT-VSFC (Vietnamese Students' Feedback Corpus)
@@ -48,9 +48,6 @@ Model: Fine-tuned vinai/phobert-base with class weights from training distributi
 Inputs: max_length=128, CLS embedding → dropout → linear classifier.
 Training: AdamW (lr=2e-5), 4 epochs, batch size 32, linear warmup/decay (10% warmup), grad clip=1.0.
 Early selection: best checkpoint by dev macro-F1; report per-class and overall (weighted + macro) on test.
-
-### Approach 3
-Coming soon
 
 ## Reference
 Nguyen et al. (2018). UIT-VSFC: Vietnamese Students' Feedback Corpus for Sentiment Analysis. KSE 2018.
